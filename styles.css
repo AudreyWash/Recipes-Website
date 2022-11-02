@@ -1,0 +1,15 @@
+.container1 {
+    display: flex;
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/58/04/22/1000_F_258042265_dZVn2faJl8LdX7ARGySJMtn1XcmLih5B.jpg");
+    background-size: 100% 500%;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.container2 {
+    display: flex;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWmB_ZylY5NEiMKV4LbgimKgDsX8qFQXckHEcrBx6LoaEvfsOxSpPkdBLSjeoPCN_Ydi8&usqp=CAU");
+    background-size: 100% 500%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
