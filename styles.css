@@ -33,7 +33,7 @@
     display: block;
     height: 40px;
     line-height: 40px;
-    width: 150px;
+    width: 140px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -45,5 +45,3 @@
     background-color: lightgreen;
     border-bottom: 1px solid black;
 }
-
-
