@@ -33,3 +33,14 @@ nav ul{
     padding: 0;
     display: flex;
 }
+
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
