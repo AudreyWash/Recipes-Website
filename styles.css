@@ -3,9 +3,13 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
     font-family: Serif;
-    background: url(https://img.freepik.com/premium-photo/food-background-spices-vegetables-cooking-free-space-your-text_187166-38305.jpg?w=2000);
-    
+    /*background: url(https://img.freepik.com/premium-photo/food-background-spices-vegetables-cooking-free-space-your-text_187166-38305.jpg?w=2000);*/
+    background-color: #eee;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;   
 }
 
 nav {
@@ -52,3 +56,22 @@ nav ul li a:hover{
     background: rgba(0,0,0, 0.7);
     border-radius: 6px;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.grid{
+    display: grid;
+    width: 114em;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: start;
+}
+    
