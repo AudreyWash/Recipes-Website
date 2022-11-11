@@ -44,3 +44,15 @@ nav ul li a{
     text-transform: uppercase;
 }
 
+nav ul li a:hover{
+    background: rgba(0,0,0, 0.7);
+    border-radius: 6px;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background: url(https://img.freepik.com/premium-photo/food-background-spices-vegetables-cooking-free-space-your-text_187166-38305.jpg?w=2000);
+    background-size: cover;
+    background-position: center;
+}
