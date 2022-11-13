@@ -5,11 +5,11 @@ body {
     padding: 0;
     display: flex;
     font-family: Serif;
-    /*background: url(https://img.freepik.com/premium-photo/food-background-spices-vegetables-cooking-free-space-your-text_187166-38305.jpg?w=2000);*/
+    background: url(https://img.freepik.com/premium-photo/food-background-spices-vegetables-cooking-free-space-your-text_187166-38305.jpg?w=2000);
     background-color: #eee;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;   
+    min-height: 1220px;   
 }
 
 nav {
@@ -58,20 +58,73 @@ nav ul li a:hover{
 }
 
 * {
-    margin: 0;
+    margin: 0.8;
     padding: 0;
 }
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 62.5%; /*62.5%*/
 }
 
 .grid{
     display: grid;
-    width: 114em;
-    grid-gap: 6rem;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    width:450px;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 400px)); /*30rem, 1fr*/
     align-items: start;
 }
-    
+
+.grid-item {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.grid-item:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+/*.car-img {
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}*/
+
+.card-content {
+    padding: 3rem;
+}
+
+.card-header {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #0d0d0d
+}
+
+.card-text {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #3d3d3d;
+    margin-bottom: 2.5rem;
+}
+
+.card-btn {
+    display: block;
+    width: 100%
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #3363ff;
+    background-color: #d8e0fd;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
