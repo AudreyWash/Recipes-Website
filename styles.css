@@ -72,7 +72,7 @@ html {
     width:450px; /*450px*/
     grid-gap: 50px; /*50px*/
     grid-template-columns: repeat(auto-fit, minmax(100px, 400px)); /*30rem, 1fr*/
-    align-items: start;
+    align-items: center; /*start*/
 }
 
 .grid-item {
