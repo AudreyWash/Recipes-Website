@@ -72,13 +72,13 @@ html {
     display: grid;
     width:350px; /*450px*/
     grid-gap: 50px; /*50px*/
-    grid-template-columns: repeat(auto-fit, minmax(100px, 400px)); /*30rem, 1fr*/
+    grid-template-columns: repeat(auto-fit, minmax(320px, 100px)); /*30rem, 1fr*/
     align-items: start; /*start*/
 }
 
 .grid-item {
     background-color: #fff;
-    border-radius: 4rem; /*0.9rem*/
+    border-radius: 2rem; /*0.9rem*/
     overflow: hidden;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
     cursor: pointer;
