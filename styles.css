@@ -144,3 +144,13 @@ html {
 .card-btn:active span {
     margin-left: 1.5rem;
 }
+
+@media only screen and (max-width: 60em) {
+    body {
+        padding: 3rem;
+    }
+}
+
+.grid {
+    grid-gap: 3rem;
+}
