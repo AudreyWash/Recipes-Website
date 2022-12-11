@@ -123,6 +123,11 @@ a:hover {
     background-image: url("../images/tonkatsupork.jpg");
 }
 
+
+.taters-img {
+    background-image: url("../images/tatertot.jpg");
+}
+
 .recipe-h1 {
     padding: 50px;
     margin: 0;
